@@ -77,7 +77,7 @@ header {
 }
 .banner__img {
   width: 40%;
-  background-image: url("assets/img/player.png");
+  background-image: url("./assets/img/player.png");
   background-position: -25px 0px;
   background-size: cover;
   background-repeat: no-repeat;
