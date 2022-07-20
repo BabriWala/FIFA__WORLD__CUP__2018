@@ -286,19 +286,22 @@ hr {
   border: 1px solid rgba(249, 246, 246, 0.24);
   margin-bottom: 30px;
 }
+.social__icon> a>i{
+  color: #fff;
+}
 .social__icon {
   text-align: center;
 }
-.social__icon > i {
+.social__icon > a>i {
   padding: 12px 14px;
   background-color: transparent;
   border-radius: 50%;
   margin-right: 10px;
 }
-.social__icon > i:hover {
+.social__icon > a>i:hover {
   cursor: pointer;
   color: rgba(255, 255, 255, 0.769);
 }
-.social__icon > i:last-child {
+.social__icon >a> i:last-child {
   margin-right: 0;
 }
