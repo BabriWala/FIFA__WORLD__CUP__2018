@@ -68,7 +68,7 @@ header {
   border: 3px solid #fff;
   border-color: transparent;
 }
-.banner__btn a{
+.banner__btn a {
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
@@ -76,37 +76,36 @@ header {
   font-family: "Oswald", sans-serif;
   color: #fff;
 }
-.banner__btn:hover{
-  background-color:transparent;
+.banner__btn:hover {
+  background-color: transparent;
   border: 3px solid #fff;
   transition: 0.3s;
 }
 .banner__btn > i {
   color: #fff;
 }
-.fa-arrow-right{
+.fa-arrow-right {
   animation-name: arrow;
   position: relative;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
-@keyframes arrow{
-  0%{
+@keyframes arrow {
+  0% {
     left: 0;
   }
-  100%{
+  100% {
     left: 10px;
   }
 }
 .banner__img {
   width: 40%;
-  background-image: url("../img/player.png");
+  background-image: url("../img/logo/player.png");
   background-position: -25px 0px;
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
 }
-
 
 /* Blog Section CSS Styles */
 .blog__section {
@@ -143,7 +142,7 @@ header {
   color: #fff;
   border: 3px solid transparent;
 }
-.navigation__btn:hover{
+.navigation__btn:hover {
   background-color: transparent;
   border-color: #fff;
   transition: 0.3s;
@@ -183,11 +182,11 @@ header {
   margin-bottom: 15px;
   letter-spacing: 1px;
 }
-.blog__btn:hover{
+.blog__btn:hover {
   background-color: #14213d;
   border-color: transparent;
 }
-.blog__btn:hover>a{
+.blog__btn:hover > a {
   color: #fff;
 }
 .blog__title {
@@ -232,7 +231,7 @@ header {
   border: 3px solid transparent;
   display: none;
 }
-.view__all:hover{
+.view__all:hover {
   border-color: #14213d;
   background-color: transparent;
   color: #14213d;
@@ -272,11 +271,11 @@ hr {
 }
 .social__icon > i {
   padding: 12px 14px;
-  background-color:transparent;
+  background-color: transparent;
   border-radius: 50%;
   margin-right: 10px;
 }
-.social__icon>i:hover{
+.social__icon > i:hover {
   cursor: pointer;
   color: rgba(255, 255, 255, 0.769);
 }

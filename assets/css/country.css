@@ -1,5 +1,5 @@
-/* Blog Section CSS Styles */
-.navigation__btn:first-child {
+/* Blog Section Start */
+.navigation__btn:nth-child(2) {
   margin-bottom: 20px;
   background-color: #d62828;
   color: #fff;
@@ -26,43 +26,15 @@
   transition: 0.3s;
   color: #fff;
 }
-.blog{
+.blog {
   padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.124);
   border-radius: 5px;
 }
-.blog__content{
-  margin: 0;
-  border: none;
-  padding: 0;
-}
-.match{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-.match> img{
+.match > img {
   width: 100%;
+  height: 150px;
 }
-.match>img,h2{
-  margin-right: 10px;
-}
-.match>img:last-child{
-  margin-right: 0;
-}
-.blog__title{
+.match > h2 {
   text-align: center;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  color: #161616;
-  margin-bottom: 10px;
-}
-.match__time{
-  text-align: center;
-  font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-color: #4D4D4D;
 }
