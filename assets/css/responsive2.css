@@ -82,15 +82,26 @@
         border-color:#14213d;
         margin-bottom: 0;
     }
+    .navigation__btn:first-child:hover{
+        background-color:transparent;
+        border-color: #14213d;
+        color: #14213d;
+    }
+    .navigation__btn:first-child, .navigation__btn:last-child{
+        margin-bottom: 0;
+    }
+    .navigation__btn:last-child{
+        border-color: #14213d;
+    }
     .navigation__btn:hover{
         background-color: #14213d;
         border-color: transparent;
         color: #fff;
     }
     .navigation__btn:last-child:hover{
-        background-color: transparent;
-        border-color: #14213d;
-        color: #14213d;
+        border-color: transparent;
+        background-color: #14213d;
+        color: #fff;
     }
     .blogs{
         width: 100%;
